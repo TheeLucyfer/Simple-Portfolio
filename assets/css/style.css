@@ -1,7 +1,21 @@
 * {
     box-sizing: border-box;
 }
+input {
+    color: #777777;
+    width: 100%;
+}
 
+input[type="submit"] {
+    background-color: #4aaaa5;
+    color:white;
+    padding: 5px 20px;
+    border: none;
+    width: auto;
+    }
+textarea {
+    width: 100%;
+}
 
 body {
     background-image: url(../images/background.png);
