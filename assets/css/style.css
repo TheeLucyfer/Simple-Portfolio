@@ -18,7 +18,8 @@ textarea {
 }
 
 body {
-    background-image: url(../images/background.png);
+    background-image: url(../images/background.png);  
+    margin: 0px;
 }
 .clearfix {
     clear:both;
@@ -74,7 +75,33 @@ h1, h2, h3, h4, h5, h6 {
     height: 200px;
     margin: 10px;
 }
+
 .sos {
     max-width: 960px;
     margin: auto;
 }
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right:0px;
+    background-color: #666666;
+    border-top: 7px solid #4aaaa5;
+    text-align: center;
+    color: white;
+   
+ }
+ .portfolio-bois {
+     float: left;
+     margin: 45px;
+     position: relative;
+ }
+ .absolute-positions {
+     position: absolute;
+     bottom: 5px;
+     background-color: #4aaaa5;
+     color: white;
+    width: 100%;
+    text-align: center;
+ }
